@@ -1,0 +1,58 @@
+object Frm_Question: TFrm_Question
+  Left = 388
+  Height = 429
+  Top = 250
+  Width = 327
+  Caption = 'Frm_Question'
+  ClientHeight = 429
+  ClientWidth = 327
+  KeyPreview = True
+  Position = poScreenCenter
+  inline Frame1_1: TFrame1
+    Height = 429
+    Width = 327
+    Align = alClient
+    ClientHeight = 429
+    ClientWidth = 327
+    inherited pnlMain: TPanel
+      Height = 429
+      Width = 327
+      ClientHeight = 429
+      ClientWidth = 327
+      inherited pnlTop: TPanel
+        Width = 325
+        ClientWidth = 325
+      end
+      inherited pnlCenter: TPanel
+        Height = 361
+        Width = 325
+        ClientHeight = 361
+        ClientWidth = 325
+        inherited pnlQuestion: TPanel
+          Width = 323
+          ClientWidth = 323
+        end
+        inherited pnlAnswer: TPanel
+          Height = 227
+          Width = 323
+          ClientHeight = 227
+          ClientWidth = 323
+          inherited mmoAnswer: TMemo
+            Height = 198
+          end
+        end
+        inherited Splitter1: TSplitter
+          Width = 323
+        end
+      end
+      inherited pnlBottom: TPanel
+        Top = 403
+        Width = 325
+        ClientWidth = 325
+        inherited CheckBox1: TCheckBox
+          Left = 179
+        end
+      end
+    end
+  end
+end

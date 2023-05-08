@@ -1,0 +1,18 @@
+object Frm_Question: TFrm_Question
+  Left = 388
+  Height = 372
+  Top = 250
+  Width = 342
+  Caption = 'Frm_Question'
+  ClientHeight = 372
+  ClientWidth = 342
+  object splitter: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 3
+    Top = 0
+    Width = 434
+    Align = alTop
+    ResizeAnchor = akTop
+  end
+end

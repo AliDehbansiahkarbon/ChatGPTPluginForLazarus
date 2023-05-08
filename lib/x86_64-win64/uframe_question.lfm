@@ -1,0 +1,29 @@
+object Frame1: TFrame1
+  Left = 0
+  Height = 426
+  Top = 0
+  Width = 387
+  ClientHeight = 426
+  ClientWidth = 387
+  TabOrder = 0
+  DesignLeft = 387
+  DesignTop = 9
+  object Panel1: TPanel
+    Left = 96
+    Height = 98
+    Top = 136
+    Width = 208
+    Caption = 'Panel1'
+    ClientHeight = 98
+    ClientWidth = 208
+    TabOrder = 0
+    object Edit1: TEdit
+      Left = 40
+      Height = 23
+      Top = 40
+      Width = 128
+      TabOrder = 0
+      Text = 'Edit1'
+    end
+  end
+end

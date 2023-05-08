@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="lzchatgptwizard"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="umain.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Umain"/>
+      </Item>
+      <Item>
+        <Filename Value="uquestion.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="uquestion"/>
+      </Item>
+      <Item>
+        <Filename Value="uframe_question.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="uframe_question"/>
+      </Item>
+      <Item>
+        <Filename Value="usetting.pas"/>
+        <UnitName Value="USetting"/>
+      </Item>
+      <Item>
+        <Filename Value="uconsts.pas"/>
+        <UnitName Value="UConsts"/>
+      </Item>
+      <Item>
+        <Filename Value="uthread.pas"/>
+        <UnitName Value="uthread"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="RunTimeTypeInfoControls"/>
+      </Item>
+      <Item>
+        <PackageName Value="IDEIntf"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
