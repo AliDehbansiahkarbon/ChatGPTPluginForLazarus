@@ -11,6 +11,7 @@
         <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
     </CompilerOptions>
+    <Version Major="1"/>
     <Files>
       <Item>
         <Filename Value="umain.pas"/>
