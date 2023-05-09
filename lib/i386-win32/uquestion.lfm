@@ -49,7 +49,7 @@ object Frm_Question: TFrm_Question
         Top = 403
         Width = 325
         ClientWidth = 325
-        inherited CheckBox1: TCheckBox
+        inherited chkAutoCopy: TCheckBox
           Left = 179
         end
       end

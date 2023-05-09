@@ -74,8 +74,7 @@ var
   LvCommandCategory: TIDECommandCategory;
   LvIDECommand, LvIDESettingCommand: TIDECommand;
   LvMenuItemCaption: string;
-  LvMenuSection, LvChatGPTHeaderMenu, LvSettingMenu: TIDEMenuSection;
-  LvOnClick: TNotifyEvent;
+  LvMenuSection, LvChatGPTHeaderMenu: TIDEMenuSection;
 begin
   LvMenuItemCaption := SCaption;
 
@@ -103,7 +102,7 @@ begin
 
   // register dockable Window
   Frm_QuestionCreator := IDEWindowCreators.Add(FORM_NAME, @CreateFrm_Question,
-    nil, '100', '100', '420', '620'  // default place at left=100, top=100, right=300, bottom=300
+  nil, '100', '100', '420', '620'  // default place at left=100, top=100, right=300, bottom=300
     // you can also define percentage values of screen or relative positions, see wiki
     );
 

@@ -6,6 +6,8 @@ object Frm_Setting: TFrm_Setting
   Caption = 'Frm_Setting'
   ClientHeight = 231
   ClientWidth = 467
+  KeyPreview = True
+  OnKeyDown = FormKeyDown
   Position = poScreenCenter
   object pnlBottom: TPanel
     Left = 0

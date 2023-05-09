@@ -14,7 +14,7 @@ type
   TFrame1 = class(TFrame)
     btnAsk: TButton;
     btnClipBoard: TButton;
-    CheckBox1: TCheckBox;
+    chkAutoCopy: TCheckBox;
     Label1: TLabel;
     Label2: TLabel;
     MenuItem1: TMenuItem;
@@ -127,6 +127,8 @@ begin
     mmoAnswer.Lines.Add(AAnswer);
 
   ProgressBar.Visible := not ADone;
+  if (ADone) and (chkAutoCopy.Checked) then
+    btnClipBoard.Click;
 end;
 
 procedure TFrame1.CallThread(AQuestion: String);

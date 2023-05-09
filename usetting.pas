@@ -98,6 +98,7 @@ type
     procedure Btn_DefaultClick(Sender: TObject);
     procedure Btn_SaveClick(Sender: TObject);
     procedure cbbModelChange(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
     procedure LoadDefaults;
   public
@@ -156,6 +157,12 @@ begin
     mtConfirmation, [mbYes, mbNo], 0) = mrYes then
       edt_Url.Text := DefaultChatGPTURL;
   end;
+end;
+
+procedure TFrm_Setting.FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+begin
+  if Ord(Key) = 27 then
+    Close;
 end;
 
 procedure TFrm_Setting.LoadDefaults;

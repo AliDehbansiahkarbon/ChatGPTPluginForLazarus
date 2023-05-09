@@ -159,7 +159,7 @@ object Frame1: TFrame1
         TabOrder = 0
         Visible = False
       end
-      object CheckBox1: TCheckBox
+      object chkAutoCopy: TCheckBox
         Left = 186
         Height = 19
         Top = 3
@@ -171,8 +171,8 @@ object Frame1: TFrame1
     end
   end
   object PopupClear: TPopupMenu
-    Left = 304
-    Top = 248
+    Left = 256
+    Top = 216
     object MenuItem3: TMenuItem
       Caption = 'Clear all'
       OnClick = MenuItem3Click
