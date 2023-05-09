@@ -4,9 +4,6 @@ unit UConsts;
 
 interface
 
-uses
-  Messages;
-
 const
   DefaultChatGPTURL = 'https://api.openai.com/v1/completions';
   DefaultChatGPT3_5TurboURL = 'https://api.openai.com/v1/chat/completions';
