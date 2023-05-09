@@ -8,11 +8,6 @@ uses
   Messages;
 
 const
-  WM_UPDATE_MESSAGE = WM_USER + 5874;
-  WM_PROGRESS_MESSAGE = WM_USER + 5875;
-  WM_WRITESONIC_UPDATE_MESSAGE = WM_USER + 5876;
-  WM_YOUCHAT_UPDATE_MESSAGE = WM_USER + 5877;
-
   DefaultChatGPTURL = 'https://api.openai.com/v1/completions';
   DefaultChatGPT3_5TurboURL = 'https://api.openai.com/v1/chat/completions';
   DefaultModel = 'text-davinci-003';
