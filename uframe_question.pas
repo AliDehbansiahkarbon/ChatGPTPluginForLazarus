@@ -60,6 +60,7 @@ begin
     ShowMessage('You need an API key, please fill the setting parameters in setting form.');
     Frm_Setting := TFrm_Setting.Create(Application);
     try
+      Frm_Setting.ChangeFocus := True;
       Frm_Setting.ShowModal;
     finally
       Frm_Setting.Free;

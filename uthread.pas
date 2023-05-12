@@ -91,12 +91,11 @@ begin
         LvHttpClient.RequestBody := TStringStream.Create('{"prompt": "' + APrompt + '", "max_tokens": ' + IntToStr(AMaxToken)
                                                        + ', "model": "' + AModel
                                                        + '", "temperature": ' + IntToStr(ATemperature) + '}');
-
-      LvHttpClient.Post(FUrl, LvResponseStream);
-      LvResponseStream.Position := 0;
-      LvResponseContent := TStringStream.Create('');
         try
           try
+            LvHttpClient.Post(FUrl, LvResponseStream);
+            LvResponseStream.Position := 0;
+            LvResponseContent := TStringStream.Create('');
             LvResponseContent.CopyFrom(LvResponseStream, LvResponseStream.Size);
             LvResponseJSON := GetJSON(LvResponseContent.DataString) as TJSONObject;
             if Assigned(LvResponseJSON) then

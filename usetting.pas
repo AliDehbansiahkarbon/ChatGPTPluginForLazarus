@@ -98,11 +98,13 @@ type
     procedure Btn_DefaultClick(Sender: TObject);
     procedure Btn_SaveClick(Sender: TObject);
     procedure cbbModelChange(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure FormShow(Sender: TObject);
   private
     procedure LoadDefaults;
   public
-
+    ChangeFocus: Boolean;
   end;
 
 var
@@ -159,10 +161,24 @@ begin
   end;
 end;
 
+procedure TFrm_Setting.FormCreate(Sender: TObject);
+begin
+  ChangeFocus := False;
+end;
+
 procedure TFrm_Setting.FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
 begin
   if Ord(Key) = 27 then
     Close;
+end;
+
+procedure TFrm_Setting.FormShow(Sender: TObject);
+begin
+  if ChangeFocus then
+  begin
+    edt_ApiKey.Color := clYellow;
+    edt_ApiKey.SetFocus;
+  end;
 end;
 
 procedure TFrm_Setting.LoadDefaults;
