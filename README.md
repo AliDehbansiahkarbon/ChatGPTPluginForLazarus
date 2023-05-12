@@ -1,7 +1,9 @@
 # ChatGPTExtensionForLazarus  <img width="100" height="100" src="https://user-images.githubusercontent.com/5601608/236861918-62a06a26-677f-4e1d-a5a3-aeb30980a259.png"/>
 
 #### **NOTE: You will need an API key to use this plugin.
-#### **NOTE2: It has been built and tested in Lazarus ver 2.2.6
+#### **NOTE2: It has been built with Lazarus ver 2.2.6
+#### **NOTE2: Tested in Windows 10 & 11, linux mint 21.1 64bit TLS and lazarus IDE 2.2.6 + freepascal 3.2.2
+
 <br />
 
 ## How to Install
