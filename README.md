@@ -1,15 +1,28 @@
-# ChatGPTExtensionForLazarus  <img width="100" height="100" src="https://user-images.githubusercontent.com/5601608/236861918-62a06a26-677f-4e1d-a5a3-aeb30980a259.png"/>
+# ChatGPTExtensionForLazarus 
 
-#### **NOTE: You will need an API key to use this plugin.
-#### **NOTE2: It has been built with Lazarus ver 2.2.6
-#### **NOTE2: Tested in Windows 10 & 11, linux mint 21.1 64bit TLS and lazarus IDE 2.2.6 + freepascal 3.2.2
+<div style="display:block;width:100%;text-align:center;justify-content:center">
+<img width="200" height="200" src="https://user-images.githubusercontent.com/5601608/236861918-62a06a26-677f-4e1d-a5a3-aeb30980a259.png"/>
+<p style="font-size:40px">A ChatGPT Extension for Lazarus IDE!</p>
+</div>
+
+
+
+## A few notes:
+<br/>
+
+- **You will need an API key to use this plugin**
+- **It has been built with Lazarus ver 2.2.6**
+- **Tested in Windows 10 & 11, linux mint 21.1 64bit TLS and lazarus IDE 2.2.6 + freepascal 3.2.2**
 
 <br />
 
 ## How to Install
 
+
 It's almost like Delphi 7, use the main menu of the IDE to open the project, this path: Package\Open Package File(.lpk), and select the package project file (lzchatgptwizard.lpk).
 Now just compile, and install it, it will take a while and the IDE will restart automatically.
+
+<br />
 
 ![image](https://user-images.githubusercontent.com/5601608/236844210-480e7e98-e250-4d0f-a080-740fa516b9b7.png)
 <br />
