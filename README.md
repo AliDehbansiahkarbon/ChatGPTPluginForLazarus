@@ -5,7 +5,7 @@
 </p>
   
 <p align="center">
-  <b style="font-size:30px">A ChatGPT Extension for Lazarus IDE!</b>
+  <b>A ChatGPT Extension for Lazarus IDE!</b>
 </p>
 
 
@@ -22,7 +22,7 @@
 ## How to Install
 
 
-It's almost like Delphi 7, use the main menu of the IDE to open the project, this path: Package\Open Package File(.lpk), and select the package project file (lzchatgptwizard.lpk).
+It's almost like Delphi 7, use the main menu of the IDE to open the project, this path: `Package\Open Package File(.lpk)`, and select the package project file (`lzchatgptwizard.lpk`).
 Now just compile, and install it, it will take a while and the IDE will restart automatically.
 
 <br />
