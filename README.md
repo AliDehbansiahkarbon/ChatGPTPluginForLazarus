@@ -1,9 +1,12 @@
 # ChatGPTExtensionForLazarus 
 
-<div style="display:block;width:100%;text-align:center;justify-content:center">
-<img width="200" height="200" src="https://user-images.githubusercontent.com/5601608/236861918-62a06a26-677f-4e1d-a5a3-aeb30980a259.png"/>
-<p style="font-size:40px">A ChatGPT Extension for Lazarus IDE!</p>
-</div>
+<p align="center" >
+  <img width="300" height="300" style="margin: 0 auto" src="https://user-images.githubusercontent.com/5601608/236861918-62a06a26-677f-4e1d-a5a3-aeb30980a259.png"/>
+</p>
+  
+<p align="center">
+  <b style="font-size:30px">A ChatGPT Extension for Lazarus IDE!</b>
+</p>
 
 
 
