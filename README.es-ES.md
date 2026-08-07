@@ -38,7 +38,7 @@ Ahora solo compílalo e instálalo; tardará un poco y el IDE se reiniciará aut
 ## Cómo usarlo
 Después de configurar tu clave de API en el formulario de configuración, podrás usar el nuevo menú que se ha añadido bajo el menú Tools del menú principal del IDE.
 Ahora podrás hacer preguntas directamente y obtener las respuestas.
-Alternativamente, puedes presionar Ctrl+Shidt+Alt+C para abrir el formulario del complemento.
+Alternativamente, puedes presionar Ctrl+Shift+Alt+C para abrir el formulario del complemento.
 Nota: este formulario es anclable por defecto; si estás usando paneles anclables, puedes anclarlo a la derecha o a la izquierda.
 
 <br />
